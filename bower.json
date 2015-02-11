@@ -1,0 +1,25 @@
+{
+  "name": "gesDoc",
+  "version": "0.1.0",
+  "authors": [
+    "Maddalena <maddalena@codiceplastico.com>"
+  ],
+  "description": "A marvellous web application",
+  "main": "index.html",
+  "keywords": [
+    "porn"
+  ],
+  "license": "MIT",
+  "homepage": "codiceplastico.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.1"
+  }
+}
