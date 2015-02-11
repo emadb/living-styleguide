@@ -11,6 +11,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('connect-livereload');  
+  grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Project configuration.
   grunt.initConfig({
@@ -48,15 +50,42 @@ module.exports = function(grunt) {
           spawn: false
         }
       },
+      sass:{
+        files:['src/sass/**/*'],
+        tasks:['compass:dist']
+      },
       livereload: {
         options:{
           livereload: livereloadPort
         },
         files:['build/*.html']
       }
+    },
+
+    compass: {                  
+      dev:{
+        options:{
+          sassDir: 'src/sass',
+          cssDir: 'build/css'
+        }
+      }
+    },
+
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      build: {
+        files: {
+          'build/css/main.min.css': ['build/css/main.css']
+        }
+      }
     }
+
   });
 
   // Default task(s).
-  grunt.registerTask('default', ['copy:html', 'connect:livereload', 'watch']);
+  grunt.registerTask('default', ['copy:html', 'compass:dev', 'connect:livereload', 'watch']);
+  grunt.registerTask('build', ['cssmin']);
 };
