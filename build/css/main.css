@@ -2703,3 +2703,23 @@ blockquote p {
     font-size: 1rem;
   }
 }
+/* line 4, ../../src/sass/blocks/_styleguide.scss */
+.styleguide__title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+/* line 12, ../../src/sass/blocks/_styleguide.scss */
+.styleguide__element {
+  border: 1px solid #888888;
+  padding: 20px;
+}
+/* line 17, ../../src/sass/blocks/_styleguide.scss */
+.styleguide__subtitle {
+  font-size: 20.8px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  margin-bottom: 24px;
+}
