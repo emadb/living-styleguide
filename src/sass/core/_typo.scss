@@ -1,0 +1,78 @@
+$font-map:(
+	primary: (
+		family: Arial,
+		sizes:(
+			small: (size: 12px, height: 14px),
+			midsmall: (size: 14px, height: 16px),
+			base: (size: 16px, height: 18px),
+			midlarge: (size: 18px, height: 20px),
+			large: (size: 20px, height: 22px)
+		)
+	),
+	secondary:(
+		family: Times,
+		sizes:(
+			small: (size: 12px, height: 14px),
+			midsmall: (size: 14px, height: 16px),
+			base: (size: 16px, height: 18px),
+			midlarge: (size: 18px, height: 20px),
+			large: (size: 20px, height: 22px)
+		)
+	)
+);
+
+@function typo-get-font-family($font){
+	@return map-get(map-get($font-map, $font),family);
+}
+
+@function typo-get-size($font, $size){
+	@return map-get(map-get(map-get(map-get($font-map, $font), sizes), $size), size);
+}
+
+@function typo-get-line-height($font, $size){
+	@return map-get(map-get(map-get(map-get($font-map, $font), sizes), $size), height);
+}
+
+@mixin typo($font, $size){
+	font-size: typo-get-size($font, $size);
+	line-height: typo-get-line-height($font, $size);
+	font-family: typo-get-font-family($font);
+}
+
+.typo{
+	&__item{
+		margin-bottom: 20px;		
+	}
+
+	$index: 1;
+	@each $family, $sizes in $font-map{
+		@each $size, $sh in map-get($sizes, sizes){
+			&__item:nth-child(#{$index}){
+				strong:after{
+					content: "#{$family} #{$size} (#{typo-get-size($family, $size)}, #{typo-get-line-height($family, $size)})";
+				}
+
+				div{
+					@include typo($family, $size);
+				}
+
+				em:after{
+					content: "@include typo(#{$family}, #{$size})"
+				}
+			}
+			$index: $index + 1;
+		}
+		
+	}
+}
+
+
+@each $family, $sizes in $font-map{
+	.typo-#{$family}{
+		@each $size, $sh in map-get($sizes, sizes){
+			&.#{$size}{
+				@include typo($family, $size);
+			}
+		}	
+	}
+}

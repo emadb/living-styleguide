@@ -529,6 +529,213 @@ th {
   color: #000000;
 }
 
+/* line 43, ../../src/sass/core/_typo.scss */
+.typo__item {
+  margin-bottom: 20px;
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(1) strong:after {
+  content: "primary small (12px, 14px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(1) div {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Arial;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(1) em:after {
+  content: "@include typo(primary, small)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(2) strong:after {
+  content: "primary midsmall (14px, 16px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(2) div {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Arial;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(2) em:after {
+  content: "@include typo(primary, midsmall)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(3) strong:after {
+  content: "primary base (16px, 18px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(3) div {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Arial;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(3) em:after {
+  content: "@include typo(primary, base)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(4) strong:after {
+  content: "primary midlarge (18px, 20px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(4) div {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Arial;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(4) em:after {
+  content: "@include typo(primary, midlarge)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(5) strong:after {
+  content: "primary large (20px, 22px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(5) div {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: Arial;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(5) em:after {
+  content: "@include typo(primary, large)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(6) strong:after {
+  content: "secondary small (12px, 14px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(6) div {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Times;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(6) em:after {
+  content: "@include typo(secondary, small)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(7) strong:after {
+  content: "secondary midsmall (14px, 16px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(7) div {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Times;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(7) em:after {
+  content: "@include typo(secondary, midsmall)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(8) strong:after {
+  content: "secondary base (16px, 18px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(8) div {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Times;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(8) em:after {
+  content: "@include typo(secondary, base)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(9) strong:after {
+  content: "secondary midlarge (18px, 20px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(9) div {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Times;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(9) em:after {
+  content: "@include typo(secondary, midlarge)";
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(10) strong:after {
+  content: "secondary large (20px, 22px)";
+}
+/* line 55, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(10) div {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: Times;
+}
+/* line 59, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(10) em:after {
+  content: "@include typo(secondary, large)";
+}
+
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-primary.small {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Arial;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-primary.midsmall {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Arial;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-primary.base {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Arial;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-primary.midlarge {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Arial;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-primary.large {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: Arial;
+}
+
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-secondary.small {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Times;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-secondary.midsmall {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Times;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-secondary.base {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Times;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-secondary.midlarge {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Times;
+}
+/* line 73, ../../src/sass/core/_typo.scss */
+.typo-secondary.large {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: Times;
+}
+
 /* line 348, ../../src/sass/vendor/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";
@@ -3328,18 +3535,20 @@ blockquote p {
 }
 /* line 4, ../../src/sass/blocks/_styleguide.scss */
 .styleguide__title {
-  font-size: 32px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: Arial;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 32px;
 }
-/* line 12, ../../src/sass/blocks/_styleguide.scss */
+/* line 13, ../../src/sass/blocks/_styleguide.scss */
 .styleguide__element {
   border: 1px solid #888888;
   padding: 20px;
 }
-/* line 17, ../../src/sass/blocks/_styleguide.scss */
+/* line 18, ../../src/sass/blocks/_styleguide.scss */
 .styleguide__subtitle {
   font-size: 20.8px;
   text-transform: uppercase;

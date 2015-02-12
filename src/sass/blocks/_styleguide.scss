@@ -2,7 +2,8 @@ $styleguide-title-color: #000000;
 
 .styleguide{
 	&__title{
-		font-size: $rem-base*2;
+		//font-size: $rem-base*2;
+		@include typo(primary, large);
 		font-weight: bold;
 		text-transform:uppercase;
 		color: $styleguide-title-color;
