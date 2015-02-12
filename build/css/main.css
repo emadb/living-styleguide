@@ -3254,47 +3254,95 @@ blockquote p {
   margin-bottom: 24px;
 }
 
-/* line 6, ../../src/sass/blocks/_color.scss */
+/* line 17, ../../src/sass/blocks/_color.scss */
 .color div:first-child {
   min-height: 40px;
 }
-/* line 10, ../../src/sass/blocks/_color.scss */
+/* line 21, ../../src/sass/blocks/_color.scss */
 .color strong, .color i {
   display: block;
 }
-/* line 15, ../../src/sass/blocks/_color.scss */
+/* line 28, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(1) .color__item div:first-child {
   background-color: #FF0000;
 }
-/* line 18, ../../src/sass/blocks/_color.scss */
+/* line 31, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(1) i:after {
   content: "#FF0000";
 }
-/* line 21, ../../src/sass/blocks/_color.scss */
+/* line 34, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(1) strong:after {
-  content: "Red";
+  content: "red";
 }
-/* line 27, ../../src/sass/blocks/_color.scss */
+/* line 37, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(1) em:after {
+  content: "color(red)";
+}
+/* line 28, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(2) .color__item div:first-child {
   background-color: #00FF00;
 }
-/* line 30, ../../src/sass/blocks/_color.scss */
+/* line 31, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(2) i:after {
   content: "#00FF00";
 }
-/* line 33, ../../src/sass/blocks/_color.scss */
+/* line 34, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(2) strong:after {
-  content: "Green";
+  content: "green";
 }
-/* line 39, ../../src/sass/blocks/_color.scss */
+/* line 37, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(2) em:after {
+  content: "color(green)";
+}
+/* line 28, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(3) .color__item div:first-child {
   background-color: #0000FF;
 }
-/* line 42, ../../src/sass/blocks/_color.scss */
+/* line 31, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(3) i:after {
   content: "#0000FF";
 }
-/* line 45, ../../src/sass/blocks/_color.scss */
+/* line 34, ../../src/sass/blocks/_color.scss */
 .color li:nth-child(3) strong:after {
-  content: "Blue";
+  content: "blue";
+}
+/* line 37, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(3) em:after {
+  content: "color(blue)";
+}
+/* line 28, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(4) .color__item div:first-child {
+  background-color: #000000;
+}
+/* line 31, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(4) i:after {
+  content: "#000000";
+}
+/* line 34, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(4) strong:after {
+  content: "black";
+}
+/* line 37, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(4) em:after {
+  content: "color(black)";
+}
+
+/* line 48, ../../src/sass/blocks/_color.scss */
+.red {
+  color: #FF0000;
+}
+
+/* line 48, ../../src/sass/blocks/_color.scss */
+.green {
+  color: #00FF00;
+}
+
+/* line 48, ../../src/sass/blocks/_color.scss */
+.blue {
+  color: #0000FF;
+}
+
+/* line 48, ../../src/sass/blocks/_color.scss */
+.black {
+  color: #000000;
 }
