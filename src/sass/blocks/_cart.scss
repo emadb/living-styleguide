@@ -1,0 +1,20 @@
+.cart{
+	@include grid-row();
+	&__sidebar{
+ 		@include grid-column(4);
+ 		@media #{$medium-only} { 
+ 			@include grid-column(12);
+ 		}
+	}
+	&__content{
+ 		@include grid-column(8);
+ 		@media #{$medium-only} { 
+ 			@include grid-column(12);
+ 		}
+	}
+
+	.cart{
+		@include grid-row(nest);
+	}
+}
+
