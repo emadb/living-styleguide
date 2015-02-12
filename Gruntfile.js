@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     connect: {
       options: {
         port: 8000,
-        hostname: '*',
+        hostname: 'localhost',
         base: 'build',
         open: {
           target: 'http://localhost:8000/'
@@ -30,7 +30,13 @@ module.exports = function(grunt) {
         files: [
           {expand: true, src: ['src/*.html'], dest: 'build/', flatten: true}
         ]
+      },
+      js:{
+        files:[
+          {expand:true, cwd:'src/js', src:['**/*.js'], dest:'build/js'}
+        ]
       }
+
     },
     
     watch: {
@@ -49,6 +55,14 @@ module.exports = function(grunt) {
           livereload: true
         }
       },
+      js:{
+        files: ['src/js/**/*.js'],
+        tasks: ['copy:js'],
+        options: {
+          livereload: true,
+          spawn: false
+        }
+      }
     },
 
     compass: {
@@ -76,5 +90,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['copy:html', 'compass:dev', 'connect:livereload', 'watch']);
-  grunt.registerTask('build', ['cssmin']);
+  grunt.registerTask('build', ['cssmin', 'copy:js']);
 };
