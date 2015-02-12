@@ -1,0 +1,49 @@
+$red: #FF0000;
+$green: #00FF00;
+$blue: #0000FF;
+
+.color{
+	div:first-child{
+		min-height: 40px;
+	}
+
+	strong, i{
+		display: block;
+	}
+
+	li:nth-child(1){
+		.color__item div:first-child{
+			background-color: $red;
+		}
+		i:after{
+			content: "" + $red;
+		}
+		strong:after{
+			content: "Red";
+		}
+	}
+
+	li:nth-child(2){
+		.color__item div:first-child{
+			background-color: $green;
+		}
+		i:after{
+			content: "" + $green;
+		}
+		strong:after{
+			content: "Green";
+		}
+	}
+
+	li:nth-child(3){
+		.color__item div:first-child{
+			background-color: $blue;
+		}
+		i:after{
+			content: "" + $blue;
+		}
+		strong:after{
+			content: "Blue";
+		}
+	}
+}

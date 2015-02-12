@@ -2111,6 +2111,536 @@ select {
     left: auto;
   }
 }
+/* line 107, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+}
+/* line 172, ../../src/sass/vendor/foundation/components/_global.scss */
+[class*="block-grid-"]:before, [class*="block-grid-"]:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../../src/sass/vendor/foundation/components/_global.scss */
+[class*="block-grid-"]:after {
+  clear: both;
+}
+/* line 51, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+[class*="block-grid-"] > li {
+  display: block;
+  height: auto;
+  float: left;
+  padding: 0 0.625rem 1.25rem;
+}
+
+@media only screen {
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li {
+    width: 100%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li {
+    width: 50%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li {
+    width: 33.33333%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li {
+    width: 25%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li {
+    width: 20%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li {
+    width: 16.66667%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li {
+    width: 14.28571%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li {
+    width: 12.5%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li {
+    width: 11.11111%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li {
+    width: 10%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li {
+    width: 9.09091%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li {
+    width: 8.33333%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .small-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-1 > li {
+    width: 100%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-1 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-2 > li {
+    width: 50%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-2 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li {
+    width: 33.33333%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li {
+    width: 25%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li {
+    width: 20%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li {
+    width: 16.66667%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li {
+    width: 14.28571%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li {
+    width: 12.5%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li {
+    width: 11.11111%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li {
+    width: 10%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li {
+    width: 9.09091%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li {
+    width: 8.33333%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .medium-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li {
+    width: 100%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li {
+    width: 50%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li {
+    width: 33.33333%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li {
+    width: 25%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li {
+    width: 20%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li {
+    width: 16.66667%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li {
+    width: 14.28571%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li {
+    width: 12.5%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li {
+    width: 11.11111%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li {
+    width: 10%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li {
+    width: 9.09091%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li {
+    width: 8.33333%;
+    list-style: none;
+  }
+  /* line 69, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../../src/sass/vendor/foundation/components/_block-grid.scss */
+  .large-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: both;
+  }
+}
 /* line 155, ../../src/sass/vendor/foundation/components/_type.scss */
 .text-left {
   text-align: left !important;
@@ -2722,4 +3252,49 @@ blockquote p {
   text-transform: uppercase;
   color: #4d4d4d;
   margin-bottom: 24px;
+}
+
+/* line 6, ../../src/sass/blocks/_color.scss */
+.color div:first-child {
+  min-height: 40px;
+}
+/* line 10, ../../src/sass/blocks/_color.scss */
+.color strong, .color i {
+  display: block;
+}
+/* line 15, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(1) .color__item div:first-child {
+  background-color: #FF0000;
+}
+/* line 18, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(1) i:after {
+  content: "#FF0000";
+}
+/* line 21, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(1) strong:after {
+  content: "Red";
+}
+/* line 27, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(2) .color__item div:first-child {
+  background-color: #00FF00;
+}
+/* line 30, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(2) i:after {
+  content: "#00FF00";
+}
+/* line 33, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(2) strong:after {
+  content: "Green";
+}
+/* line 39, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(3) .color__item div:first-child {
+  background-color: #0000FF;
+}
+/* line 42, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(3) i:after {
+  content: "#0000FF";
+}
+/* line 45, ../../src/sass/blocks/_color.scss */
+.color li:nth-child(3) strong:after {
+  content: "Blue";
 }
