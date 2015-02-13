@@ -1,0 +1,79 @@
+$cc-air: 3px;
+$cc-bar-height: 14px;
+$cc-height: $cc-bar-height * 4 + $cc-air * 5;
+
+.cc{
+	position: relative;
+	min-width: 500px;
+	max-width: 500px;
+	&__total{
+		position: absolute;
+		width: $cc-height;
+		height: $cc-height;
+		top: 0px;
+		left: 0px;
+		background-color: color(grey-mid-light);
+		@include border-radius($cc-height);
+		border: $cc-air solid #FFFFFF;
+		@include typo(primary, base);
+		line-height: $cc-height - 2px;
+		text-align: center;
+		color: color(black);
+		font-weight: bold;
+	}
+
+	&__bars {
+		margin-left: $cc-height/2;
+		padding-top: $cc-air;
+	}
+
+	&__bar{
+		height: $cc-bar-height;
+		line-height: $cc-bar-height;
+		margin-bottom: $cc-air;
+		white-space: nowrap;
+		overflow: hidden;
+
+		&--failed{
+			.cc__bg{
+				background-color: color(red-light);
+			}
+		}
+		&--unverified{
+			.cc__bg{
+				background-color: color(yellow);
+			}
+		}
+		&--ok{
+			.cc__bg{
+				background-color: color(green);
+			}
+		}
+		&--warning{
+			.cc__bg{
+				background-color: color(orange);
+			}
+		}
+	}
+
+
+
+	&__bg{
+		display: inline-block;
+		height: $cc-bar-height;
+		line-height: $cc-bar-height;
+		min-width: $cc-height / 2;
+		max-width: 80%;
+		@include border-radius($cc-bar-height/2);
+	}
+
+	&__label{
+		display: inline-block;
+		width: 20%;	
+		@include typo(primary, small);
+		line-height: $cc-bar-height - 4px;
+		vertical-align: middle;
+		height: $cc-bar-height;
+		color: color(grey);
+	}
+}

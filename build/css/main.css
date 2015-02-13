@@ -3712,7 +3712,7 @@ blockquote p {
 /* line 293, ../../src/sass/vendor/foundation/components/_offcanvas.scss */
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #A20000;
+  background: #333333;
   color: #FFFFFF;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -3736,7 +3736,7 @@ blockquote p {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #510000;
+  border-right: solid 1px #1a1a1a;
   left: 0;
 }
 
@@ -3746,7 +3746,7 @@ blockquote p {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #510000;
+  border-left: solid 1px #1a1a1a;
   right: 0;
 }
 
@@ -3897,7 +3897,7 @@ ul.off-canvas-list li a {
 }
 /* line 249, ../../src/sass/vendor/foundation/components/_offcanvas.scss */
 ul.off-canvas-list li a:hover {
-  background: #710000;
+  background: #242424;
 }
 
 /* line 335, ../../src/sass/vendor/foundation/components/_offcanvas.scss */
@@ -7846,6 +7846,85 @@ th.hide-for-touch {
 /* line 173, ../../src/sass/vendor/foundation/components/_global.scss */
 .cart .cart:after {
   clear: both;
+}
+
+/* line 5, ../../src/sass/blocks/_cc.scss */
+.cc {
+  position: relative;
+  min-width: 500px;
+  max-width: 500px;
+}
+/* line 9, ../../src/sass/blocks/_cc.scss */
+.cc__total {
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  top: 0px;
+  left: 0px;
+  background-color: #DAD9DE;
+  -moz-border-radius: 71px;
+  -webkit-border-radius: 71px;
+  border-radius: 71px;
+  border: 3px solid #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 69px;
+  text-align: center;
+  color: #2A2939;
+  font-weight: bold;
+}
+/* line 25, ../../src/sass/blocks/_cc.scss */
+.cc__bars {
+  margin-left: 35.5px;
+  padding-top: 3px;
+}
+/* line 30, ../../src/sass/blocks/_cc.scss */
+.cc__bar {
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 38, ../../src/sass/blocks/_cc.scss */
+.cc__bar--failed .cc__bg {
+  background-color: #D03333;
+}
+/* line 43, ../../src/sass/blocks/_cc.scss */
+.cc__bar--unverified .cc__bg {
+  background-color: #F2D856;
+}
+/* line 48, ../../src/sass/blocks/_cc.scss */
+.cc__bar--ok .cc__bg {
+  background-color: #61AC07;
+}
+/* line 53, ../../src/sass/blocks/_cc.scss */
+.cc__bar--warning .cc__bg {
+  background-color: #FE6B14;
+}
+/* line 61, ../../src/sass/blocks/_cc.scss */
+.cc__bg {
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  min-width: 35.5px;
+  max-width: 80%;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 70, ../../src/sass/blocks/_cc.scss */
+.cc__label {
+  display: inline-block;
+  width: 20%;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 10px;
+  vertical-align: middle;
+  height: 14px;
+  color: #949496;
 }
 
 /* line 1, ../../src/sass/blocks/_container.scss */
