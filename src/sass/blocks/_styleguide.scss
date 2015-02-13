@@ -8,6 +8,10 @@ $styleguide-title-color: #000000;
 		text-transform:uppercase;
 		color: $styleguide-title-color;
 		margin-bottom: $rem-base*2;
+
+			i{
+				font-size: 2em;
+			}
 	}
 
 	&__element {
@@ -21,4 +25,5 @@ $styleguide-title-color: #000000;
 		color: lighten($styleguide-title-color, 30%);
 		margin-bottom: 24px;	
 	}
+
 }
