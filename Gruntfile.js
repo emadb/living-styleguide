@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Project configuration.
   grunt.initConfig({
@@ -45,8 +46,7 @@ module.exports = function(grunt) {
         files: ['src/*.html'],
         tasks: ['copy:html'],
         options: {
-          livereload: true,
-          spawn: false
+          livereload: true
         }
       },
       sass:{
@@ -58,18 +58,16 @@ module.exports = function(grunt) {
       },
       js:{
         files: ['src/js/**/*.js'],
-        tasks: ['copy:js'],
+        tasks: ['copy:js', 'uglify'],
         options: {
-          livereload: true,
-          spawn: false
+          livereload: true
         }
       },
       image:{
         files: ['src/image/**/*'],
         tasks: ['imagemin'],
         options: {
-          livereload: true,
-          spawn: false
+          livereload: true
         }
       }
     },
@@ -107,11 +105,22 @@ module.exports = function(grunt) {
           optimizationLevel: 3
         }
       }
+    },
+    uglify: {
+      my_target: {
+        files: [{
+            expand: true,
+            cwd: 'src/js',
+            src: ['**/*.js', '**/!*.min.js'],
+            ext: '.min.js',
+            dest: 'build/js'
+        }]
+      }
     }
 
   });
 
   // Default task(s).
-  grunt.registerTask('default', ['copy:html', 'compass:dev', 'connect:livereload', 'watch']);
-  grunt.registerTask('build', ['cssmin', 'copy:js', 'imagemin']);
+  grunt.registerTask('default', ['copy:html', 'copy:js', 'uglify', 'imagemin', 'compass:dev', 'connect:livereload', 'watch']);
+  grunt.registerTask('build', ['cssmin', 'copy:js', 'uglify', 'imagemin']);
 };

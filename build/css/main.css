@@ -2412,6 +2412,81 @@ select {
     left: auto;
   }
 }
+/* line 112, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+  font-size: 0.8125rem;
+  transition: opacity 300ms ease-out;
+  background-color: #008CBA;
+  border-color: #0078a0;
+  color: #FFFFFF;
+}
+/* line 115, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box .close {
+  font-size: 1.375rem;
+  padding: 0 6px 4px;
+  line-height: .9;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.6875rem;
+  right: 0.25rem;
+  color: #333333;
+  opacity: 0.3;
+  background: inherit;
+}
+/* line 96, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box .close:hover, .alert-box .close:focus {
+  opacity: 0.5;
+}
+/* line 117, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.radius {
+  border-radius: 3px;
+}
+/* line 118, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.round {
+  border-radius: 1000px;
+}
+/* line 120, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.success {
+  background-color: #43AC6A;
+  border-color: #3a945b;
+  color: #FFFFFF;
+}
+/* line 121, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.alert {
+  background-color: #f04124;
+  border-color: #de2d0f;
+  color: #FFFFFF;
+}
+/* line 122, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.secondary {
+  background-color: #e7e7e7;
+  border-color: #c7c7c7;
+  color: #4f4f4f;
+}
+/* line 123, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.warning {
+  background-color: #f08a24;
+  border-color: #de770f;
+  color: #FFFFFF;
+}
+/* line 124, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.info {
+  background-color: #a0d3e8;
+  border-color: #74bfdd;
+  color: #4f4f4f;
+}
+/* line 125, ../../src/sass/vendor/foundation/components/_alert-boxes.scss */
+.alert-box.alert-close {
+  opacity: 0;
+}
+
 /* line 107, ../../src/sass/vendor/foundation/components/_block-grid.scss */
 [class*="block-grid-"] {
   display: block;
