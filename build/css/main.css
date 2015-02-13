@@ -6645,10 +6645,7 @@ blockquote p {
 /* line 3, ../../src/sass/blocks/_container.scss */
 .container__row {
   width: auto;
-  margin-left: -0.9375rem;
-  margin-right: -0.9375rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   max-width: none;
 }
 /* line 172, ../../src/sass/vendor/foundation/components/_global.scss */
@@ -6662,48 +6659,42 @@ blockquote p {
 }
 /* line 7, ../../src/sass/blocks/_container.scss */
 .container__menu {
+  position: fixed;
+  height: 100%;
+  background-color: #3E3D4F;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 25%;
   float: left;
+  padding: 0px;
 }
-/* line 11, ../../src/sass/blocks/_container.scss */
+/* line 15, ../../src/sass/blocks/_container.scss */
 .container__content {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 75%;
   float: left;
+  float: right;
+  padding: 0px;
 }
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
   /* line 3, ../../src/sass/helpers/_mixins.scss */
   .container__menu {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 16.66667%;
-    float: left;
   }
   /* line 7, ../../src/sass/helpers/_mixins.scss */
   .container__content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 83.33333%;
-    float: left;
   }
 }
 @media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
   /* line 13, ../../src/sass/helpers/_mixins.scss */
   .container__menu {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 8.33333%;
-    float: left;
   }
   /* line 17, ../../src/sass/helpers/_mixins.scss */
   .container__content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 91.66667%;
-    float: left;
   }
 }
 
@@ -6716,10 +6707,7 @@ blockquote p {
 /* line 10, ../../src/sass/blocks/_header.scss */
 .header__row {
   width: auto;
-  margin-left: -0.9375rem;
-  margin-right: -0.9375rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   max-width: none;
 }
 /* line 172, ../../src/sass/vendor/foundation/components/_global.scss */
@@ -6762,33 +6750,21 @@ blockquote p {
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
   /* line 3, ../../src/sass/helpers/_mixins.scss */
   .header__logo {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 16.66667%;
-    float: left;
   }
   /* line 7, ../../src/sass/helpers/_mixins.scss */
   .header__topbar {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 83.33333%;
-    float: left;
   }
 }
 @media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
   /* line 13, ../../src/sass/helpers/_mixins.scss */
   .header__logo {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 8.33333%;
-    float: left;
   }
   /* line 17, ../../src/sass/helpers/_mixins.scss */
   .header__topbar {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
     width: 91.66667%;
-    float: left;
   }
 }
 

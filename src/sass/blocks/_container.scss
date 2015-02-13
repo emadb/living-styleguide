@@ -1,15 +1,21 @@
 .container{
 	padding-top: $header-height;
 	&__row{
-		@include grid-row(nest);
+		@include grid-row(nest-collapse);
 	}
 
 	&__menu{
+		position: fixed;
+		height: 100%;
+		background-color: color(purple);
 		@include grid-column($header-col1-width);
+		padding: 0px;
 
 	}
 	&__content{
 		@include grid-column($header-col2-width);
+		float: right;
+		padding: 0px;
 	}
 
 	@include header-media-query(menu, content);
