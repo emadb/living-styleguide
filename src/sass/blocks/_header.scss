@@ -32,4 +32,8 @@ $header-col2-width: 9 !default;
 	}	
 
 	@include header-media-query(logo, topbar);
+
+	@media #{$small-only}{
+		display:none;
+	}
 }

@@ -1,7 +1,8 @@
 @import "vendor/normalize";	
 @import "core/*.*";
+@import "helpers/settings";
 @import "vendor/foundation/settings";
 @import "vendor/foundation";
 @import "vendor/fontawesome/fontawesome";
-@import "helpers/*.*";
+@import "helpers/mixins";
 @import "blocks/*.*";
