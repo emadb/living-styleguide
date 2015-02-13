@@ -5,6 +5,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Project configuration.
   grunt.initConfig({
@@ -62,6 +63,14 @@ module.exports = function(grunt) {
           livereload: true,
           spawn: false
         }
+      },
+      image:{
+        files: ['src/image/**/*'],
+        tasks: ['imagemin'],
+        options: {
+          livereload: true,
+          spawn: false
+        }
       }
     },
 
@@ -84,11 +93,25 @@ module.exports = function(grunt) {
           'build/css/main.min.css': ['build/css/main.css']
         }
       }
+    },
+
+    imagemin: {                          // Task
+      dynamic: {                         // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'src/image',                   // Src matches are relative to this path
+          src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+          dest: 'build/image'                  // Destination path prefix
+        }],
+        options:{
+          optimizationLevel: 3
+        }
+      }
     }
 
   });
 
   // Default task(s).
   grunt.registerTask('default', ['copy:html', 'compass:dev', 'connect:livereload', 'watch']);
-  grunt.registerTask('build', ['cssmin', 'copy:js']);
+  grunt.registerTask('build', ['cssmin', 'copy:js', 'imagemin']);
 };
