@@ -1,0 +1,21 @@
+@mixin header-media-query($col1-name, $col2-name){
+	@media #{$xlarge-only}{
+		&__#{$col1-name}{
+			@include grid-column(2);
+		}
+
+		&__#{$col2-name}{
+			@include grid-column(10);
+		}
+	}
+
+	@media #{$xxlarge-only}{
+		&__#{$col1-name}{
+			@include grid-column(1);
+		}
+
+		&__#{$col2-name}{
+			@include grid-column(11);
+		}
+	}
+}

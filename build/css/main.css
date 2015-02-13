@@ -437,304 +437,371 @@ th {
   padding: 0;
 }
 
-/* line 17, ../../src/sass/core/_color.scss */
+/* line 25, ../../src/sass/core/_color.scss */
 .color div:first-child {
   min-height: 40px;
 }
-/* line 21, ../../src/sass/core/_color.scss */
+/* line 29, ../../src/sass/core/_color.scss */
 .color strong, .color i {
   display: block;
 }
-/* line 28, ../../src/sass/core/_color.scss */
+/* line 36, ../../src/sass/core/_color.scss */
 .color li:nth-child(1) .color__item div:first-child {
-  background-color: #FF0000;
+  background-color: #A20000;
 }
-/* line 31, ../../src/sass/core/_color.scss */
+/* line 39, ../../src/sass/core/_color.scss */
 .color li:nth-child(1) i:after {
-  content: "#FF0000";
+  content: "#A20000";
 }
-/* line 34, ../../src/sass/core/_color.scss */
+/* line 42, ../../src/sass/core/_color.scss */
 .color li:nth-child(1) strong:after {
   content: "red";
 }
-/* line 37, ../../src/sass/core/_color.scss */
+/* line 45, ../../src/sass/core/_color.scss */
 .color li:nth-child(1) em:after {
   content: "color(red)";
 }
-/* line 28, ../../src/sass/core/_color.scss */
+/* line 36, ../../src/sass/core/_color.scss */
 .color li:nth-child(2) .color__item div:first-child {
-  background-color: #00FF00;
+  background-color: #3E3D4F;
 }
-/* line 31, ../../src/sass/core/_color.scss */
+/* line 39, ../../src/sass/core/_color.scss */
 .color li:nth-child(2) i:after {
-  content: "#00FF00";
+  content: "#3E3D4F";
 }
-/* line 34, ../../src/sass/core/_color.scss */
+/* line 42, ../../src/sass/core/_color.scss */
 .color li:nth-child(2) strong:after {
+  content: "purple";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(2) em:after {
+  content: "color(purple)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(3) .color__item div:first-child {
+  background-color: #D03333;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(3) i:after {
+  content: "#D03333";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(3) strong:after {
+  content: "red-light";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(3) em:after {
+  content: "color(red-light)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(4) .color__item div:first-child {
+  background-color: #908EA6;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(4) i:after {
+  content: "#908EA6";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(4) strong:after {
+  content: "purple-light";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(4) em:after {
+  content: "color(purple-light)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(5) .color__item div:first-child {
+  background-color: #F2D856;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(5) i:after {
+  content: "#F2D856";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(5) strong:after {
+  content: "yellow";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(5) em:after {
+  content: "color(yellow)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(6) .color__item div:first-child {
+  background-color: #61AC07;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(6) i:after {
+  content: "#61AC07";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(6) strong:after {
   content: "green";
 }
-/* line 37, ../../src/sass/core/_color.scss */
-.color li:nth-child(2) em:after {
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(6) em:after {
   content: "color(green)";
 }
-/* line 28, ../../src/sass/core/_color.scss */
-.color li:nth-child(3) .color__item div:first-child {
-  background-color: #0000FF;
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(7) .color__item div:first-child {
+  background-color: #ABD373;
 }
-/* line 31, ../../src/sass/core/_color.scss */
-.color li:nth-child(3) i:after {
-  content: "#0000FF";
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(7) i:after {
+  content: "#ABD373";
 }
-/* line 34, ../../src/sass/core/_color.scss */
-.color li:nth-child(3) strong:after {
-  content: "blue";
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(7) strong:after {
+  content: "green-light";
 }
-/* line 37, ../../src/sass/core/_color.scss */
-.color li:nth-child(3) em:after {
-  content: "color(blue)";
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(7) em:after {
+  content: "color(green-light)";
 }
-/* line 28, ../../src/sass/core/_color.scss */
-.color li:nth-child(4) .color__item div:first-child {
-  background-color: #000000;
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(8) .color__item div:first-child {
+  background-color: #FE6B14;
 }
-/* line 31, ../../src/sass/core/_color.scss */
-.color li:nth-child(4) i:after {
-  content: "#000000";
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(8) i:after {
+  content: "#FE6B14";
 }
-/* line 34, ../../src/sass/core/_color.scss */
-.color li:nth-child(4) strong:after {
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(8) strong:after {
+  content: "orange";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(8) em:after {
+  content: "color(orange)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(9) .color__item div:first-child {
+  background-color: #2A2939;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(9) i:after {
+  content: "#2A2939";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(9) strong:after {
   content: "black";
 }
-/* line 37, ../../src/sass/core/_color.scss */
-.color li:nth-child(4) em:after {
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(9) em:after {
   content: "color(black)";
 }
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(10) .color__item div:first-child {
+  background-color: #EBEBED;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(10) i:after {
+  content: "#EBEBED";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(10) strong:after {
+  content: "grey-light";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(10) em:after {
+  content: "color(grey-light)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(11) .color__item div:first-child {
+  background-color: #DAD9DE;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(11) i:after {
+  content: "#DAD9DE";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(11) strong:after {
+  content: "grey-mid-light";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(11) em:after {
+  content: "color(grey-mid-light)";
+}
+/* line 36, ../../src/sass/core/_color.scss */
+.color li:nth-child(12) .color__item div:first-child {
+  background-color: #949496;
+}
+/* line 39, ../../src/sass/core/_color.scss */
+.color li:nth-child(12) i:after {
+  content: "#949496";
+}
+/* line 42, ../../src/sass/core/_color.scss */
+.color li:nth-child(12) strong:after {
+  content: "grey";
+}
+/* line 45, ../../src/sass/core/_color.scss */
+.color li:nth-child(12) em:after {
+  content: "color(grey)";
+}
 
-/* line 48, ../../src/sass/core/_color.scss */
+/* line 56, ../../src/sass/core/_color.scss */
 .red {
-  color: #FF0000;
+  color: #A20000;
 }
 
-/* line 48, ../../src/sass/core/_color.scss */
+/* line 56, ../../src/sass/core/_color.scss */
+.purple {
+  color: #3E3D4F;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
+.red-light {
+  color: #D03333;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
+.purple-light {
+  color: #908EA6;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
+.yellow {
+  color: #F2D856;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
 .green {
-  color: #00FF00;
+  color: #61AC07;
 }
 
-/* line 48, ../../src/sass/core/_color.scss */
-.blue {
-  color: #0000FF;
+/* line 56, ../../src/sass/core/_color.scss */
+.green-light {
+  color: #ABD373;
 }
 
-/* line 48, ../../src/sass/core/_color.scss */
+/* line 56, ../../src/sass/core/_color.scss */
+.orange {
+  color: #FE6B14;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
 .black {
-  color: #000000;
+  color: #2A2939;
 }
 
-/* line 43, ../../src/sass/core/_typo.scss */
+/* line 56, ../../src/sass/core/_color.scss */
+.grey-light {
+  color: #EBEBED;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
+.grey-mid-light {
+  color: #DAD9DE;
+}
+
+/* line 56, ../../src/sass/core/_color.scss */
+.grey {
+  color: #949496;
+}
+
+/* line 35, ../../src/sass/core/_typo.scss */
 .typo__item {
   margin-bottom: 20px;
 }
-/* line 51, ../../src/sass/core/_typo.scss */
+/* line 43, ../../src/sass/core/_typo.scss */
 .typo__item:nth-child(1) strong:after {
-  content: "primary small (12px, 14px)";
+  content: "primary x-small (10px, 14px)";
 }
-/* line 55, ../../src/sass/core/_typo.scss */
+/* line 47, ../../src/sass/core/_typo.scss */
 .typo__item:nth-child(1) div {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 14px;
-  font-family: Arial;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 59, ../../src/sass/core/_typo.scss */
+/* line 51, ../../src/sass/core/_typo.scss */
 .typo__item:nth-child(1) em:after {
+  content: "@include typo(primary, x-small)";
+}
+/* line 43, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(2) strong:after {
+  content: "primary small (12px, 16px)";
+}
+/* line 47, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(2) div {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Titillium Web", sans-serif;
+}
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(2) em:after {
   content: "@include typo(primary, small)";
 }
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(2) strong:after {
-  content: "primary midsmall (14px, 16px)";
+/* line 43, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(3) strong:after {
+  content: "primary midsmall (14px, 18px)";
 }
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(2) div {
+/* line 47, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(3) div {
   font-size: 14px;
-  line-height: 16px;
-  font-family: Arial;
+  line-height: 18px;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(2) em:after {
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(3) em:after {
   content: "@include typo(primary, midsmall)";
 }
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(3) strong:after {
-  content: "primary base (16px, 18px)";
+/* line 43, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(4) strong:after {
+  content: "primary base (16px, 20px)";
 }
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(3) div {
+/* line 47, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(4) div {
   font-size: 16px;
-  line-height: 18px;
-  font-family: Arial;
+  line-height: 20px;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(3) em:after {
+/* line 51, ../../src/sass/core/_typo.scss */
+.typo__item:nth-child(4) em:after {
   content: "@include typo(primary, base)";
 }
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(4) strong:after {
-  content: "primary midlarge (18px, 20px)";
-}
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(4) div {
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Arial;
-}
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(4) em:after {
-  content: "@include typo(primary, midlarge)";
-}
-/* line 51, ../../src/sass/core/_typo.scss */
+/* line 43, ../../src/sass/core/_typo.scss */
 .typo__item:nth-child(5) strong:after {
-  content: "primary large (20px, 22px)";
+  content: "primary large (30px, 36px)";
 }
-/* line 55, ../../src/sass/core/_typo.scss */
+/* line 47, ../../src/sass/core/_typo.scss */
 .typo__item:nth-child(5) div {
-  font-size: 20px;
-  line-height: 22px;
-  font-family: Arial;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 59, ../../src/sass/core/_typo.scss */
+/* line 51, ../../src/sass/core/_typo.scss */
 .typo__item:nth-child(5) em:after {
   content: "@include typo(primary, large)";
 }
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(6) strong:after {
-  content: "secondary small (12px, 14px)";
-}
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(6) div {
-  font-size: 12px;
-  line-height: 14px;
-  font-family: Times;
-}
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(6) em:after {
-  content: "@include typo(secondary, small)";
-}
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(7) strong:after {
-  content: "secondary midsmall (14px, 16px)";
-}
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(7) div {
-  font-size: 14px;
-  line-height: 16px;
-  font-family: Times;
-}
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(7) em:after {
-  content: "@include typo(secondary, midsmall)";
-}
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(8) strong:after {
-  content: "secondary base (16px, 18px)";
-}
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(8) div {
-  font-size: 16px;
-  line-height: 18px;
-  font-family: Times;
-}
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(8) em:after {
-  content: "@include typo(secondary, base)";
-}
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(9) strong:after {
-  content: "secondary midlarge (18px, 20px)";
-}
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(9) div {
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Times;
-}
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(9) em:after {
-  content: "@include typo(secondary, midlarge)";
-}
-/* line 51, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(10) strong:after {
-  content: "secondary large (20px, 22px)";
-}
-/* line 55, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(10) div {
-  font-size: 20px;
-  line-height: 22px;
-  font-family: Times;
-}
-/* line 59, ../../src/sass/core/_typo.scss */
-.typo__item:nth-child(10) em:after {
-  content: "@include typo(secondary, large)";
-}
 
-/* line 73, ../../src/sass/core/_typo.scss */
+/* line 65, ../../src/sass/core/_typo.scss */
+.typo-primary.x-small {
+  font-size: 10px;
+  line-height: 14px;
+  font-family: "Titillium Web", sans-serif;
+}
+/* line 65, ../../src/sass/core/_typo.scss */
 .typo-primary.small {
   font-size: 12px;
-  line-height: 14px;
-  font-family: Arial;
+  line-height: 16px;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 73, ../../src/sass/core/_typo.scss */
+/* line 65, ../../src/sass/core/_typo.scss */
 .typo-primary.midsmall {
   font-size: 14px;
-  line-height: 16px;
-  font-family: Arial;
+  line-height: 18px;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 73, ../../src/sass/core/_typo.scss */
+/* line 65, ../../src/sass/core/_typo.scss */
 .typo-primary.base {
   font-size: 16px;
-  line-height: 18px;
-  font-family: Arial;
-}
-/* line 73, ../../src/sass/core/_typo.scss */
-.typo-primary.midlarge {
-  font-size: 18px;
   line-height: 20px;
-  font-family: Arial;
+  font-family: "Titillium Web", sans-serif;
 }
-/* line 73, ../../src/sass/core/_typo.scss */
+/* line 65, ../../src/sass/core/_typo.scss */
 .typo-primary.large {
-  font-size: 20px;
-  line-height: 22px;
-  font-family: Arial;
-}
-
-/* line 73, ../../src/sass/core/_typo.scss */
-.typo-secondary.small {
-  font-size: 12px;
-  line-height: 14px;
-  font-family: Times;
-}
-/* line 73, ../../src/sass/core/_typo.scss */
-.typo-secondary.midsmall {
-  font-size: 14px;
-  line-height: 16px;
-  font-family: Times;
-}
-/* line 73, ../../src/sass/core/_typo.scss */
-.typo-secondary.base {
-  font-size: 16px;
-  line-height: 18px;
-  font-family: Times;
-}
-/* line 73, ../../src/sass/core/_typo.scss */
-.typo-secondary.midlarge {
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Times;
-}
-/* line 73, ../../src/sass/core/_typo.scss */
-.typo-secondary.large {
-  font-size: 20px;
-  line-height: 22px;
-  font-family: Times;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 /* line 348, ../../src/sass/vendor/foundation/components/_global.scss */
@@ -824,7 +891,7 @@ body {
 /* line 417, ../../src/sass/vendor/foundation/components/_global.scss */
 body {
   background: #fff;
-  color: #222;
+  color: #2A2939;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -3316,7 +3383,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #000000;
+  color: #2A2939;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -3325,7 +3392,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 262, ../../src/sass/vendor/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #595959;
+  color: #68658d;
   line-height: 0;
 }
 
@@ -3362,7 +3429,7 @@ h6 {
 /* line 276, ../../src/sass/vendor/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #595959;
+  color: #68658d;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -3498,7 +3565,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #2A2939;
   cursor: help;
 }
 
@@ -3522,7 +3589,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #3b3b3b;
+  color: #535170;
 }
 /* line 408, ../../src/sass/vendor/foundation/components/_type.scss */
 blockquote cite:before {
@@ -3531,14 +3598,14 @@ blockquote cite:before {
 /* line 412, ../../src/sass/vendor/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #3b3b3b;
+  color: #535170;
 }
 
 /* line 418, ../../src/sass/vendor/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #595959;
+  color: #68658d;
 }
 
 /* Microformats */
@@ -6571,11 +6638,165 @@ blockquote p {
   clear: both;
 }
 
+/* line 1, ../../src/sass/blocks/_container.scss */
+.container {
+  padding-top: 75px;
+}
+/* line 3, ../../src/sass/blocks/_container.scss */
+.container__row {
+  width: auto;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+}
+/* line 172, ../../src/sass/vendor/foundation/components/_global.scss */
+.container__row:before, .container__row:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../../src/sass/vendor/foundation/components/_global.scss */
+.container__row:after {
+  clear: both;
+}
+/* line 7, ../../src/sass/blocks/_container.scss */
+.container__menu {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 25%;
+  float: left;
+}
+/* line 11, ../../src/sass/blocks/_container.scss */
+.container__content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 75%;
+  float: left;
+}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+  /* line 3, ../../src/sass/helpers/_mixins.scss */
+  .container__menu {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 16.66667%;
+    float: left;
+  }
+  /* line 7, ../../src/sass/helpers/_mixins.scss */
+  .container__content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 83.33333%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
+  /* line 13, ../../src/sass/helpers/_mixins.scss */
+  .container__menu {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 8.33333%;
+    float: left;
+  }
+  /* line 17, ../../src/sass/helpers/_mixins.scss */
+  .container__content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 91.66667%;
+    float: left;
+  }
+}
+
+/* line 5, ../../src/sass/blocks/_header.scss */
+.header {
+  height: 75px;
+  position: fixed;
+  width: 100%;
+}
+/* line 10, ../../src/sass/blocks/_header.scss */
+.header__row {
+  width: auto;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+}
+/* line 172, ../../src/sass/vendor/foundation/components/_global.scss */
+.header__row:before, .header__row:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../../src/sass/vendor/foundation/components/_global.scss */
+.header__row:after {
+  clear: both;
+}
+/* line 14, ../../src/sass/blocks/_header.scss */
+.header__logo {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 25%;
+  float: left;
+  background-color: #A20000;
+  height: 75px;
+  line-height: 75px;
+}
+/* line 21, ../../src/sass/blocks/_header.scss */
+.header__topbar {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 75%;
+  float: left;
+  background-color: #EBEBED;
+  height: 75px;
+  line-height: 75px;
+}
+/* line 28, ../../src/sass/blocks/_header.scss */
+.header__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Titillium Web", sans-serif;
+  color: #A20000;
+  line-height: 75px;
+}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+  /* line 3, ../../src/sass/helpers/_mixins.scss */
+  .header__logo {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 16.66667%;
+    float: left;
+  }
+  /* line 7, ../../src/sass/helpers/_mixins.scss */
+  .header__topbar {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 83.33333%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
+  /* line 13, ../../src/sass/helpers/_mixins.scss */
+  .header__logo {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 8.33333%;
+    float: left;
+  }
+  /* line 17, ../../src/sass/helpers/_mixins.scss */
+  .header__topbar {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 91.66667%;
+    float: left;
+  }
+}
+
 /* line 4, ../../src/sass/blocks/_styleguide.scss */
 .styleguide__title {
-  font-size: 20px;
-  line-height: 22px;
-  font-family: Arial;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;

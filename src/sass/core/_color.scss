@@ -3,10 +3,18 @@ $green: #00FF00;
 $blue: #0000FF;
 
 $colors: (
-	red: #FF0000,
-	green: #00FF00,
-	blue: #0000FF,
-	black: #000000
+	red: #A20000,
+	purple: #3E3D4F,
+	red-light: #D03333,
+	purple-light: #908EA6,
+	yellow: #F2D856,
+	green: #61AC07,
+	green-light: #ABD373,
+	orange: #FE6B14,
+	black: #2A2939,
+	grey-light: #EBEBED,
+	grey-mid-light: #DAD9DE,
+	grey: #949496
 );
 
 @function color($name){

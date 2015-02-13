@@ -1,0 +1,16 @@
+.container{
+	padding-top: $header-height;
+	&__row{
+		@include grid-row(nest);
+	}
+
+	&__menu{
+		@include grid-column($header-col1-width);
+
+	}
+	&__content{
+		@include grid-column($header-col2-width);
+	}
+
+	@include header-media-query(menu, content);
+}

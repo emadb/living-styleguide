@@ -1,0 +1,35 @@
+$header-height:75px !default;
+$header-col1-width: 3 !default;
+$header-col2-width: 9 !default;
+
+.header{
+	height: $header-height;
+	position: fixed;
+	width: 100%;
+
+	&__row{
+		@include grid-row(nest);
+	}
+
+	&__logo{
+		@include grid-column($header-col1-width);
+		background-color:color(red);
+		height:$header-height;
+		line-height: $header-height;
+	}
+
+	&__topbar{
+		@include grid-column($header-col2-width);
+		background-color: color(grey-light);
+		height: $header-height;
+		line-height: $header-height;
+	}
+
+	&__title{
+		@include typo(primary, large);
+		color: color(red);
+		line-height: $header-height;
+	}	
+
+	@include header-media-query(logo, topbar);
+}

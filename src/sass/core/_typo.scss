@@ -1,22 +1,14 @@
+$font-primary:'Titillium Web', sans-serif;
+
 $font-map:(
 	primary: (
-		family: Arial,
+		family: $font-primary,
 		sizes:(
-			small: (size: 12px, height: 14px),
-			midsmall: (size: 14px, height: 16px),
-			base: (size: 16px, height: 18px),
-			midlarge: (size: 18px, height: 20px),
-			large: (size: 20px, height: 22px)
-		)
-	),
-	secondary:(
-		family: Times,
-		sizes:(
-			small: (size: 12px, height: 14px),
-			midsmall: (size: 14px, height: 16px),
-			base: (size: 16px, height: 18px),
-			midlarge: (size: 18px, height: 20px),
-			large: (size: 20px, height: 22px)
+			x-small: (size: 10px, height: 14px),
+			small: (size: 12px, height: 16px),
+			midsmall: (size: 14px, height: 18px),
+			base: (size: 16px, height: 20px),
+			large: (size: 30px, height: 36px)
 		)
 	)
 );
